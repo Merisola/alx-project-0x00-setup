@@ -39,3 +39,22 @@ A reusable UI component to display short tags or labels (e.g., "Top Villa", "Sel
 
 ```jsx
 <Pill title="Top Villa" />
+
+## 🔘 Advanced Task - Custom Button Component
+
+### 📌 Objective
+Create a reusable Button component that accepts title and style props. Showcase it on the `/landing` page.
+
+### 📁 Files
+- `interfaces/index.tsx` → Defines `ButtonProps` interface
+- `components/Button.tsx` → Reusable Button component
+- `pages/landing.tsx` → Displays different button styles
+
+### ⚙️ Features
+- Accepts `title`, `size` (`small`, `medium`, `large`), and `shape` (`rounded-sm`, `rounded-md`, `rounded-full`)
+- Responsive Tailwind classes
+
+### 🧪 Preview on `/landing`
+- ✅ Small Rounded-sm Button
+- ✅ Medium Rounded-md Button
+- ✅ Large Rounded-full Button
