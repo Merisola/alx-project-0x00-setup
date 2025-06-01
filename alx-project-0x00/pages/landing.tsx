@@ -1,5 +1,5 @@
 import Card from "@/components/Card";
-import Button from "../components/Button";
+import Button from "@/components/Button";
 
 const Landing: React.FC = () => {
   return (
@@ -12,7 +12,7 @@ const Landing: React.FC = () => {
         <h1 className="text-2xl font-semibold">Landing Page</h1>
         <Button title="Small Button" size="small" shape="rounded-sm" />
         <Button title="Medium Button" size="medium" shape="rounded-md" />
-        <Button title="Large Button" size="large" shape="rounded-full" />
+        <Button title="Extra Button" size="large" shape="rounded-lg" />
       </div>
     </div>
   );
