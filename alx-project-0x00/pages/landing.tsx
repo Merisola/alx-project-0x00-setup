@@ -1,10 +1,18 @@
-import Card from "@/components/Card"
+import Card from "@/components/Card";
+import Button from "../components/Button";
 
 const Landing: React.FC = () => {
   return (
     <div>
       <h1 className=" text-xl font-extralight">Landing Page</h1>
       <Card />
+      <h1 className="text-2xl font-bold">Custom Buttons</h1>
+
+      <div className="space-x-2">
+        <Button title="Small Rounded-sm" size="small" shape="rounded-sm" />
+        <Button title="Medium Rounded-md" size="medium" shape="rounded-md" />
+        <Button title="Large Rounded-full" size="large" shape="rounded-full" />
+      </div>
     </div>
   );
 };
