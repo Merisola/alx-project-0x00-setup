@@ -12,6 +12,7 @@ const Button: React.FC<ButtonProps> = ({ title, size, shape }) => {
     "rounded-sm": "rounded-sm",
     "rounded-md": "rounded-md",
     "rounded-lg": "rounded-lg",
+    "rounded-full": "rounded-full"
   };
 
   return (

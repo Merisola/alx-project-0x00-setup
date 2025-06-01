@@ -13,6 +13,7 @@ const Landing: React.FC = () => {
         <Button title="Small Button" size="small" shape="rounded-sm" />
         <Button title="Medium Button" size="medium" shape="rounded-md" />
         <Button title="Extra Button" size="large" shape="rounded-lg" />
+        <Button title="Full Button" size="medium" shape="rounded-full"/>
       </div>
     </div>
   );
