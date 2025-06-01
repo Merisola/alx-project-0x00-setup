@@ -8,14 +8,11 @@ const Landing: React.FC = () => {
 
       <Card />
 
-      <div>
-        <h2 className="text-xl font-bold mb-2">Custom Buttons</h2>
-
-        <div className="flex flex-wrap gap-4">
-          <Button title="Small Button" size="small" shape="rounded-sm" />
-          <Button title="Medium Button" size="medium" shape="rounded-md" />
-          <Button title="Large Button" size="large" shape="rounded-full" />
-        </div>
+      <div className="p-6 space-y-4">
+        <h1 className="text-2xl font-semibold">Landing Page</h1>
+        <Button title="Small Button" size="small" shape="rounded-sm" />
+        <Button title="Medium Button" size="medium" shape="rounded-md" />
+        <Button title="Large Button" size="large" shape="rounded-full" />
       </div>
     </div>
   );
