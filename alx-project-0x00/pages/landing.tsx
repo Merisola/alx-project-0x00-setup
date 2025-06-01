@@ -31,7 +31,7 @@ const Landing: React.FC = () => {
         <Button
           title="Full Button"
           size="medium"
-          shape="rounded-full"
+          shape="rounded-lg"
           styles="bg-red-500 text-white"
         />
       </div>
